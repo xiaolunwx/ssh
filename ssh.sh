@@ -36,5 +36,7 @@ sed -i 's/net.ipv4.ip_forward = 0/net.ipv4.ip_forward = 1/g' /etc/sysctl.conf
 # es   delete 
 #curl -XDELETE 'http://172.16.1.16:9200/logstash-2013.03.*'  
 
+## githun help 
+#http://www.worldhello.net/gotgithub/index.html
 
 
