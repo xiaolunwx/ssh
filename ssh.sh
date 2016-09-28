@@ -39,4 +39,9 @@ sed -i 's/net.ipv4.ip_forward = 0/net.ipv4.ip_forward = 1/g' /etc/sysctl.conf
 ## githun help 
 #http://www.worldhello.net/gotgithub/index.html
 
+# add  user   
+useradd   wangxingxing && su - wangxingxing 
+mkdir .ssh  && chmod 700 .ssh  
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7LU+upYGlnAgCk7tBrp6I7qOZAbSpSj36e2PFzBkBW58bylzVhqeCGiMAAQDct0tbjUhIvDgCHxAgyfeNy/+Zyr28Tx93dseEnj8PDx2hE1e07FIbN1DrjltMM68a10fknUav9Ywst+6l54YEBHIZBLchsCOs97H98s2wResBeZWYd/qVjGIhqG3A3gSmGVgUJm1L+npLI8QgCg+vmNLuZUsSMXI6YypASRBWXOulPAIme9mqpyos/XwyxlK4bdHs2JqrDMPZZB1irhCn+lTXLK4GXY3r66GD12c2MvRPPRUGS14G5WIMIcA76y1Y1CFtz+/hjkgKYjz/ezvUGgGR wangxingxing@iZ256dycxngZ" >> .ssh/authorized_keys 
+chmod   644 .ssh/authorized_keys
 
